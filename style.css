@@ -1,0 +1,318 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Trocchi', serif;
+   
+}
+
+.clearfix::after{
+
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("banner.png");
+    color: #fff;
+    background-size:  cover;
+    background-position: center top;
+       
+}
+
+.header h3{
+
+    float: left;
+}
+
+.header h3 span{
+
+    color: #3489db;
+}
+
+.header a span{
+
+    margin-right: 10px;
+}
+
+.header a{
+
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.banner{
+
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    clear: both;
+    
+}
+
+.banner h1{
+
+    font-size: 48px;
+}
+
+.banner p{
+
+    font-size: 20px;
+}
+
+.banner button{
+
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #3489db;
+    border: 0;
+    font-family: 'Trocchi', serif;
+    margin-top: 40px;
+
+}
+
+.mid-section{
+
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.mid-section .left{
+
+    float: left;
+    width: 30%;
+   
+}
+
+.mid-section .left img{
+
+    width: 70%;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.mid-section .right {
+
+    float: right;
+    width: 65%;
+    
+}
+  button {
+
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #3489db;
+    border: 0;
+    font-family: 'Trocchi', serif;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+.last{
+
+   width: 100%;
+    height: 800px;
+  
+    margin: 0 auto;
+}
+
+.last .top{
+
+    width: 40%;
+    height: 50px;
+ 
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+
+}
+
+.last .three-box{
+
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.three-box img{
+
+    text-align: center;
+    border-radius: 70%;
+
+}
+.last .top h2{
+
+    text-align: center;
+}
+
+.three-box p{
+
+    text-align: center;
+}
+
+.three-box button{
+
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #3489db;
+    border: 0;
+    font-family: 'Trocchi', serif;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.navigation{
+
+    width: 100%;
+ 
+    height: 100px;
+    clear: both;
+ 
+}
+
+.navigation .center{
+    width: 50%;
+    margin: 0 auto;
+   
+    height: 100px;
+}
+
+.center span{
+
+    position: relative;
+    left: 200px;
+    top: 40px;
+    width: 60px;
+}
+
+.center a{
+
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.center p{
+
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    color: gray;
+}
+
+/* media query stats from here */
+
+@media only screen and (max-width:600px){
+
+
+    .banner h1{
+
+        font-size: 38px;
+    }
+
+    .banner p{
+
+        font-size: 15px;
+    }
+
+    .mid-section .left{
+
+        width: 100%;
+        clear: both;
+
+    }
+
+    .mid-section .left img{
+
+        width: 30%;
+        margin-left: 170px;
+    }
+
+    .mid-section .right{
+
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .wrapper.mid-section.right img{
+
+        width: 10%;
+    }
+
+    .wrapper.mid-section.left{
+
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrapper.mid-section.right{
+
+        clear: both;
+        width: 100%;
+    }
+
+   .last .three-box{
+
+    width: 100%;
+    clear: both;
+   }
+   .three-box img{
+
+    width: 40%;
+    margin-left: 140px;
+   }
+
+  .last .top h2{
+
+    text-align: center;
+    font-size: 28px;
+  }
+.three-box p{
+
+    text-align: center;
+}
+
+.three-box button{
+
+    margin-left: 150px;
+}
+
+
+.navigation .center{
+
+width: 100%;
+clear: both;
+position: relative;
+right: 100px;
+}
+
+ .center p{
+   
+    margin-left: 180px;
+}
+
+
+
+}
+
