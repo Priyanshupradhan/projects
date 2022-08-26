@@ -68,7 +68,7 @@ body{
     font-size: 20px;
 }
 
-.banner button{
+.blue-button{
 
     width: 150px;
     height: 50px;
@@ -108,7 +108,7 @@ body{
     width: 65%;
     
 }
-  button {
+  .blue-button{
 
     width: 150px;
     height: 50px;
@@ -120,66 +120,87 @@ body{
 
 }
 
+.wrapper{
+
+    width: 100%;
+    background-color: #3489db;
+    padding: 30px 0;
+    color: #fff;
+}
 
 
+.wrapper.left{
+
+    width: 65%;
+    text-align: left;
+}
+
+.wrapper.right{
+
+    width: 30%;
+}
+
+.mid-section.left.blue-button{
+
+    background-color: #fff;
+    color: #3489db;
+}
 
 
 .last{
 
    width: 100%;
-    height: 800px;
-  background-color: coral;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-.last .top{
-
-    width: 40%;
-    height: 50px;
- background-color: #3489db;
-    margin: 0 auto;
-    position: relative;
-    top: 40px;
+   padding: 50px 0;
+ 
+ 
 
 }
 
-.last .three-box{
+.top{
+
+  max-width: 1200px;
+  text-align: center;
+    margin: 0 auto;
+   
+
+}
+
+.top h2{
+
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+ .three-box{
 
     float: left;
     width: 30%;
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+   
+}
+
+.both-margin{
+
+    margin-left: 4.5%;
+    margin-right: 4.5%;
 }
 
 .three-box img{
 
-    text-align: center;
-    border-radius: 70%;
+   width: 80%;
+   border: 5px solid #e7e6e6;
+    border-radius: 100%;
 
 }
-.last .top h2{
 
-    text-align: center;
-}
 
 .three-box p{
 
-    text-align: center;
+   font-size: 15px;
+   margin-top: 30px;
 }
 
-.three-box button{
 
-    width: 150px;
-    height: 50px;
-    color: #fff;
-    background-color: #3489db;
-    border: 0;
-    font-family: 'Trocchi', serif;
-    margin-top: 40px;
-    margin-left: 120px;
-}
 
 .navigation{
 
