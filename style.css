@@ -128,18 +128,19 @@ body{
 
    width: 100%;
     height: 800px;
-  
+  background-color: coral;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .last .top{
 
     width: 40%;
     height: 50px;
- 
+ background-color: #3489db;
     margin: 0 auto;
     position: relative;
-    top: 20px;
+    top: 40px;
 
 }
 
